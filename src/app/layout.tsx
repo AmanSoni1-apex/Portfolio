@@ -186,7 +186,7 @@ export default function Home() {
   const current = data[activeEngine];
 
   return (
-    <div className="flex-1 flex flex-col relative w-full overflow-hidden">
+    <div className="flex-1 flex flex-col relative w-full min-h-screen bg-[#0B0F19] overflow-hidden">
 
       {/* Dynamic Background Glow matching active engine */}
       <div className={`absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-gradient-to-b ${current.accentGlow} blur-[120px] pointer-events-none z-0 transition-all duration-700`}></div>
