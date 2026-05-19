@@ -276,7 +276,7 @@ export default function Home() {
             width={700}
             height={800}
             priority
-            className="h-full w-auto object-contain drop-shadow-[0_20px_60px_rgba(139,92,246,0.15)] filter grayscale contrast-125 hover:grayscale-0 transition-all duration-500 cursor-pointer pointer-events-auto"
+            className="h-full w-auto object-contain drop-shadow-[0_20px_60px_rgba(139,92,246,0.15)] filter contrast-125 transition-all duration-500 cursor-pointer pointer-events-auto"
           />
         </div>
 
