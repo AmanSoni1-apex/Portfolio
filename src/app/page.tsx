@@ -293,7 +293,6 @@ export default function Home() {
 
         {/* Top Left: Date and Handles */}
         <div className="absolute top-12 left-6 text-left z-20 space-y-1.5 font-mono text-[9px] md:text-[10px] text-gray-500 tracking-widest uppercase">
-          <p className="text-white text-xs font-extrabold tracking-tighter">18 MAY 2026</p>
           <p>in frame: <span className="text-gray-300">@amansoni</span></p>
           <p>location: <span className="text-gray-300">Ghaziabad, Delhi ncr</span></p>
         </div>
@@ -319,7 +318,7 @@ export default function Home() {
         <div className="absolute bottom-16 right-6 text-right z-20 space-y-1.5 font-mono text-[9px] md:text-[10px] text-gray-500 tracking-widest uppercase">
           <p className="text-white text-xs font-extrabold tracking-tighter">ACTIVE DESIGNATION</p>
           <p className="text-gray-300">{current.heroSub}</p>
-          <p>status: <span className="text-green-400 animate-pulse font-bold">HIRING ACTIVE</span></p>
+          {/* <p>status: <span className="text-green-400 animate-pulse font-bold">Actively looking for the </span></p> */}
         </div>
 
       </section>
